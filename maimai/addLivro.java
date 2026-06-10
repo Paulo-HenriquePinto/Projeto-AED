@@ -43,11 +43,11 @@ public class addLivro {
         
         tela.add(lateralCinza);
 
-        Titulo = func.criaJPanel(250, 0, 550, 80, new Color (24, 58, 89), null);
+        Titulo = func.criaJPanel(250, 0, 550, 80, new Color(227,163,36), null);
         tela.add(Titulo);
 
         JLabel textoTitulo = func.criarLabel(20, 20, 550, 50, null, "Adicionar Livro:", false, new Font("Arial", Font.BOLD, 30));
-        textoTitulo.setForeground( new Color(227,163,36));
+        textoTitulo.setForeground( new Color(24,58,89));
         Titulo.add(textoTitulo);
 
     }
