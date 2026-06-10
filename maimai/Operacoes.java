@@ -49,15 +49,6 @@ public class Operacoes{
      }
 
      public void botoes(){
-        JButton btnAlugar = func.botao(50, 200, 140, 40, new Color(227,163,36), "Alugar Livro", null, null);
-        btnAlugar.setForeground(new Color(24,58,89));
-
-        JButton btnDevolver = func.botao(50, 260, 140, 40, new Color(227,163,36), "Devolver Livro", null, null);
-        btnDevolver.setForeground(new Color(24,58,89));
-
-        JButton btnRemover = func.botao(50, 320, 140, 40, new Color(227,163,36), "Remover Livro", null, null);
-        btnRemover.setForeground(new Color(24,58,89));
-
 
         JButton btnVoltar = func.botao(50, 390, 140, 40, new Color(227,163,36), "Voltar", null, null);
         btnVoltar.setForeground(new Color(24,58,89));
@@ -68,9 +59,7 @@ public class Operacoes{
          tela.repaint();
          
         obj.add(btnVoltar);
-        obj.add(btnAlugar);
-        obj.add(btnRemover);
-        obj.add(btnDevolver);
+
      }
 
      public void PainelPesquisa(){
