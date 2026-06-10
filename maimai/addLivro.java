@@ -38,7 +38,7 @@ public class addLivro {
         lateralCinza = func.criaJPanel(0, 0, 250, 500, new Color (24, 58, 89), null);
 
         renderizador telaCinza = new renderizador(func.brasao);
-        telaCinza.setBounds(0,0,250,200);
+        telaCinza.setBounds(0,0,250,140);
         lateralCinza.add(telaCinza);
         
         tela.add(lateralCinza);
