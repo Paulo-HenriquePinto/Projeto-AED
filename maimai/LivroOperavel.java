@@ -26,16 +26,23 @@ public class LivroOperavel {
     }
 
     public void Tela() {
-        tela = func.criaFrame(400, 200, 800, 500, Color.BLACK, "Tela Principal", null);
+        tela = func.criaFrame(400, 200, 800, 500, Color.BLACK, "Livro Operavel", null);
 
-        obj = func.criaJPanel(0, 0, 250, 500, Color.darkGray, null);
+        obj = func.criaJPanel(0, 0, 250, 500, new Color(24,58,89), null);
         tela.add(obj);
 
-        obj2 = func.criaJPanel(250, 0, 550, 80, Color.MAGENTA, null);
+        obj2 = func.criaJPanel(250, 0, 550, 80, new Color(227, 163, 36), null);
         tela.add(obj2);
 
-        JLabel addLivro = func.criarLabel(20, 20, 550, 50, null, "Operações:", false, new Font("Arial", Font.BOLD, 30));
+        JLabel addLivro = func.criarLabel(20, 20, 550, 50, null, "Operações", false, new Font("Arial", Font.BOLD, 30));
         obj2.add(addLivro);
+
+        JPanel Logo = func.criaJPanel(0, 0, 250, 140, Color.white, null);
+        obj.add(Logo);
+
+        renderizador imagemCapa = new renderizador(func.brasao);
+        imagemCapa.setBounds(0, 0, 250, 140);
+        Logo.add(imagemCapa);
         
     }
 
