@@ -51,8 +51,8 @@ public class Biblioteca {
         return null;
     }
 
-    //O sistema de listar o catalogo da biblioteca estruturada em lista duplamente encadeada é feito principalmente pela interface grafica
-    //assim a funcao para iniciar a listagem da qual a interface parte apenas precisa retornar o primeiro elemento. 
+    //Por enqanto, o sistema de listar o catalogo da biblioteca estruturada em lista duplamente encadeada é feito principalmente pela interface grafica
+    //assim a funcao para iniciar a listagem da qual a interface parte precisa retornar o primeiro elemento. 
     public Livro listarAcervo() {
         return Primeiro_livro;
     }
