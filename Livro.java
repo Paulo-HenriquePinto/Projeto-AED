@@ -4,15 +4,19 @@ public class Livro {
     private String Genero;
     private boolean Disponibilidade;
     private String descricao;
+    private int Ano;
     private String caminho_imagem;
 
     private Livro Seguinte;
     private Livro Anterior;
 
-    public Livro(String titulo, String genero, String autor){
+    public Livro(String titulo, String genero, String autor, int ano, String descricao, String caminho){
         this.Titulo = titulo;
         this.Genero = genero;
         this.Autor = autor;
+        this.ano = Ano;
+        this.descricao = descricao;
+        this.caminho_imagem = caminho;
         this.Disponibilidade = true; //por padrao comeca como disponivel assim que adicionado
         this.Seguinte = this.Anterior = null;
     }
@@ -45,6 +49,10 @@ public class Livro {
         return descricao;
     }
 
+    public int getAno() {
+        return Ano;
+    }
+
     public String getCaminho_imagem() {
         return caminho_imagem;
     }
@@ -64,6 +72,10 @@ public class Livro {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public void setAno(int ano) {
+        this.Ano = ano;
     }
 
     public void setCaminho_imagem(String caminho_imagem) {
