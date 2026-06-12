@@ -2,10 +2,27 @@ public class Biblioteca {
     private Livro Primeiro_livro;
     private Livro Ultimo_livro;
 
-
     public Biblioteca() {
         this.Ultimo_livro = this.Primeiro_livro = null; //comeca vazia
     }
+
+    public Livro getPrimeiro_livro() {
+        return Primeiro_livro;
+    }
+
+    public Livro getUltimo_livro() {
+        return Ultimo_livro;
+    }
+
+    public void setPrimeiro_livro(Livro primeiro_livro) {
+        this.Primeiro_livro = primeiro_livro;
+    }
+
+    public void setUltimo_livro(Livro ultimo_livro) {
+        this.Ultimo_livro = ultimo_livro;
+    }
+
+    
 
     //verifica se a lista esta vazia
     public boolean isEmpty() {
@@ -34,17 +51,24 @@ public class Biblioteca {
         return null;
     }
 
+    //O sistema de listar o catalogo da biblioteca estruturada em lista duplamente encadeada é feito principalmente pela interface grafica
+    //assim a funcao para iniciar a listagem da qual a interface parte apenas precisa retornar o primeiro elemento. 
+    public Livro listarAcervo() {
+        return Primeiro_livro;
+    }
+
+    //METODO TEMPORARIAMENTE DESATIVADO (TALVEZ SEJA REPAROVEITADO DEPOIS)
     //uma nota importante é que para listar os livros da biblioteca eu não preciso
     //referenciar o objeto livro inteiramente, ja que nao sao necesssarios todos seus atributos
     //basta listar os títulos de cada livro
-    public void listarCatalogo() {
-        Livro atual = Primeiro_livro;
-        //percorre cada elemento da lista do primeiro ao ultimo e vai listando
-        while (atual != null) {
-            System.out.println(atual.getTitulo());
-            //System.out.println(LIvro.getAutor);
-            atual = atual.getSeguinte();
-        }
-    }
+    //public void listarAcervo() {
+   //     Livro atual = Primeiro_livro;
+   //     //percorre cada elemento da lista do primeiro ao ultimo e vai listando
+    //    while (atual != null) {
+   //         System.out.println(atual.getTitulo());
+   //          //System.out.println(LIvro.getAutor);
+   //         atual = atual.getSeguinte();
+   //     }
+   // }
 
 }
