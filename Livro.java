@@ -14,7 +14,7 @@ public class Livro {
         this.Titulo = titulo;
         this.Genero = genero;
         this.Autor = autor;
-        this.ano = Ano;
+        this.Ano = ano;
         this.descricao = descricao;
         this.caminho_imagem = caminho;
         this.Disponibilidade = true; //por padrao comeca como disponivel assim que adicionado
