@@ -67,7 +67,7 @@ public class Memoria {
                         descricao
                 );
 
-                central.biblio.add(novo);
+                central.biblio.inserirLivro(novo);
             }
 
         } catch (Exception e) {

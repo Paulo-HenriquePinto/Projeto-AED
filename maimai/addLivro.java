@@ -97,7 +97,7 @@ public class addLivro {
                         Livro adder = new Livro(titulo, camposTexto[1].getText(), camposTexto[3].getText(), camposTexto[2].getText(), func.SemCapa, txtDescricao.getText());
 
                         // Adiciona o livro à biblioteca e salva no arquivo JSON
-                        controle.biblio.add(adder);
+                        controle.biblio.inserirLivro(adder);
                         controle.mem.adicionarNoJson(adder);
 
                         controle.VerTelaAdicionado(true);
@@ -121,7 +121,7 @@ public class addLivro {
                 Livro adder = new Livro(titulo, camposTexto[1].getText(), camposTexto[3].getText(), camposTexto[2].getText(), nomeImagemLivro, txtDescricao.getText());
 
                 // Adiciona o livro à biblioteca e salva no arquivo JSON
-                controle.biblio.add(adder);
+                controle.biblio.inserirLivro(adder);
                 controle.mem.adicionarNoJson(adder);
 
                 controle.VerTelaAdicionado(true);
