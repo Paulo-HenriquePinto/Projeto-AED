@@ -1,0 +1,56 @@
+[
+  {
+    "titulo": "Equações Diferenciais",
+    "genero": "Educação",
+    "autor": "Dennis G. Zill",
+    "ano": "2020",
+    "pathFoto": "dados/img/imagensSalvas/EquacoesDiferenciais.png",
+    "descricao": "Volume 2 de cálculo avançado.",
+    "disponibilidade": true
+  },
+  {
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "genero": "Fantasia",
+    "autor": "J.K. Rowling",
+    "ano": "1997",
+    "pathFoto": "dados/img/imagensSalvas/HarryPotter.png",
+    "descricao": "O início da jornada do bruxo em Hogwarts.",
+    "disponibilidade": true
+  },
+  {
+    "titulo": "Manual de Vibe Coding",
+    "genero": "Romance",
+    "autor": "Gene Kim & Steve Yegge",
+    "ano": "2026",
+    "pathFoto": "dados/img/imagensSalvas/ManualDeVibeCoding.png",
+    "descricao": "Como sr um bom VibeCoder.",
+    "disponibilidade": true
+  },
+  {
+    "titulo": "Dom Casmurro",
+    "genero": "Romance",
+    "autor": "Machado de Assis",
+    "ano": "1899",
+    "pathFoto": "dados/img/imagensSalvas/Dom-Casmurro-Machado-De-Assis-4a-Ed.jpg",
+    "descricao": "Bentinho relembra a juventude e a paixao por Capitu, enquanto a duvida sobre a traicao corroi sua narrativa.",
+    "disponibilidade": true
+  },
+  {
+    "titulo": "Metodos Analiticos em Equacoes Diferenciais Ordinarias",
+    "genero": "Educacao",
+    "autor": "David Soares Pinto Junior",
+    "ano": "2020",
+    "pathFoto": "dados/img/SemCapa/SemCapa.png",
+    "descricao": "Texto sobre tecnicas analiticas de resolucao de equacoes diferenciais ordinarias. 2a edicao.",
+    "disponibilidade": true
+  },
+  {
+    "titulo": "Magica",
+    "genero": "Romance",
+    "autor": "Calcinha Preta",
+    "ano": "2004",
+    "pathFoto": "dados/img/imagensSalvas/PareceMagica.png",
+    "descricao": "Album de forro e brega romantico da banda Calcinha Preta.",
+    "disponibilidade": true
+  }
+]
