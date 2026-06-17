@@ -8,6 +8,7 @@ javac -d out (Get-ChildItem -Recurse -Filter *.java programa).FullName
 
 java -cp out programa.Main
 
+==================================================================================
 
 Linux -  Dê cd na pasta que tem o programa e rode :
 
